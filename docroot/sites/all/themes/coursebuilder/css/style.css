@@ -1,0 +1,360 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+ 
+ /**Text**/
+
+ .text-white {
+ 	color:#ffffff;
+ }
+ 
+ .main-container {
+
+ }
+ 
+ #navbar {
+ 	background:#ffffff;
+ 	border:none;
+ }
+ 
+ /**Labels**/
+ .field-label {
+ 	color: #0C8689;
+ }
+ 
+ /** Login Page **/
+ .login-block {
+ 	border: 1px solid #0C8689;
+ 	padding: 0px 10px 20px 10px;
+ 	border-radius: 5px;
+ }
+ 
+ .login-block h2 {
+ 	color: #0C8689;
+ 	text-align: center;
+ }
+ 
+ /**Reviewer Homepage**/
+ .content-approval-pane {
+ 	margin: 0px 5px 5px 5px;
+ 	width: 41%;
+ }
+ 
+ .content-approval-pane h2 {
+ 	text-align:center;
+ 	font-size: 1.5em;
+ 	background: #0C8689;
+ 	color:white;
+ 	margin-top: 0px;
+ 	line-height: 1.8em;
+ }
+ 
+ .content-approval-pane .view-content {
+ 	padding: 5px;
+ 	font-size: 0.9em;
+ }
+ 
+ /**User Homepage**/
+ .homepage-panel {
+ 	font-size: 0.9em;
+ 	border: 1pt solid #0C8689;
+ 	padding: 0px 10px 10px 10px;
+ 	height: 300px;
+ }
+ 
+ .homepage-panel .pane-title {
+ 	background: #0C8689;
+ 	height: 1.4em;
+ 	margin-top: 0px;
+ 	margin-left: -10px;
+ 	margin-right: -10px;
+ 	color: #ffffff;
+ 	text-align:center;
+ }
+ 
+ .homepage-panel .pane-content {
+ 	max-height: 240px;
+ 	overflow: scroll;
+ }
+ 
+ .courses-pane {
+ 	height: 210px;
+ }
+ 
+ 
+ .courses-pane .pane-content {
+ 	max-height: 150px;
+ 	overflow: scroll;
+ }
+ 
+ .recent-activity {
+ 	height: 400px;
+ }
+ 
+ 
+ .recent-activity .pane-content {
+ 	max-height: 345px;
+ }
+ 
+ /**Course Homepage**/
+ .course-title {
+ 	text-align:left;
+ 	color: #FFFFFF;
+ 	background: #0C8689;
+ 	padding-left: 10px;
+ 	line-height: 0.8em;
+ 	padding-bottom: 3px;
+ }
+ 
+ .course-overview, .course-image, .course-resources {
+ 	padding: 10px 20px 10px 20px;
+ }
+ 
+ 
+
+#course-image {
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+ }
+ 
+ .nav-pane .pane-title{
+ 	background: #ffffff;
+ 	font-size: 1.5em;
+ 	line-height: 1.8em;
+ 	text-align:center;
+ 	margin-right: -10px;
+ 	margin-left: -10px;
+ 	color: #0C8689;
+ 	border-bottom: 1px solid #0C8689;
+ 	border-top: 1px solid #0C8689;
+ }
+ 
+ .nav-pane {
+ 	padding-left: 10px;
+ 	margin-top:-20px;
+ 	padding-bottom: 20px;
+ }
+ 
+ .course-overview .pane-title{
+ 	background: #70A6B0;
+ 	font-size: 1.5em;
+ 	line-height: 1.8em;
+ 	text-align:center;
+ 	margin-right: -10px;
+ 	margin-left: -10px;
+ 	color: #ffffff;
+ }
+ 
+ 
+ /**Session Homepage**/
+ .session-nav {
+ 	text-align: center;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+ 
+ .view-oneoff-menu-item {
+ 	padding-left: 25px;
+ 	padding-bottom: 20px;
+ 	margin-top: -3px;
+ }
+ 
+ .nav-item {
+ 	background: #f6f8f9; /* Old browsers */
+background: -moz-linear-gradient(top,  #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6f8f9), color-stop(50%,#e5ebee), color-stop(51%,#d7dee3), color-stop(100%,#f5f7f9)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */
+
+ }
+ 
+ .session-row {
+
+ }
+ 
+ .session-number {
+ 	font-size: 1.2em;
+ 	padding-left: 20px;
+ }
+ 
+ .session-title {
+ 	text-align:center;
+ 	color: #0C8689;
+ 	line-height: 1.0em;
+ 	font-size: 1.8em;
+ 	padding-bottom: 5px;
+ }
+ 
+ .session-quote {
+ 	text-align: center;
+ }
+ 
+ .session-main {
+ 	padding-left: 20px;
+ }
+ 
+ #essential-questions {
+ 	padding: 10px;
+ }
+ 
+ #essential-questions h2, #sections h2, .resources h2{
+ 	font-size: 1.8em;
+ 	text-align: center;
+ }
+ 
+ #essential-questions h2 {
+ 	color: #0C8689;
+ }
+ 
+ #essential-questions .pane-content, #sections .pane-content {
+ 	padding: 5px;
+ }
+ 
+ .essential-questions-block {
+
+ }
+
+ 
+ #sections h2 {
+ 	color: #690900;
+ }
+ 
+ 
+ 
+ .resources {
+ 	border-top: 1px solid #0C8689;
+ 	padding: 15px 10px 15px 10px;
+ }
+ 
+ .resources h2 {
+ 	color: #0C895C;
+ 	text-align: left;
+ }
+ 
+ /**Section homepage**/
+ #section-header {
+ 	text-align:left;
+ 	font-size:2.4em;
+ 	color: #FFFFFF;
+ 	background: #0C8689;
+ 	padding-left: 20px;
+ 	line-height: 1.8em;
+ 	font-weight: bold;
+ }
+ 
+ .section-title {
+ 	text-align:center;
+ 	color: #53D2D5;
+ 	line-height: 1.0em;
+ 	font-size: 1.7em;
+ 	padding-bottom: 5px;
+ }
+ /**Content approval pages**/
+ 
+ #review-menu h2 {
+ 	font-size: 1.0em;
+ 	padding: 0 10px 0 10px;
+ 	background: none;
+ }
+ 
+ #review-menu .views-field-title, #review-menu .views-field-type {
+ 	font-size: 0.8em;
+ }
+ 
+ .comment-box {
+ 	padding: 10px 10px 10px 10px;
+ 	margin: 0 0 10px 10px;
+ }
+ 
+ .gray {
+ 	background: #efefef;
+ }
+ 
+ .comment-box h2 {
+ 	font-size: 1.4em;
+ 	text-align: center;
+ }
+ 
+ .comment-box h3 {
+ 	font-size: 1.2em;
+ 	text-align: left;
+ }
+ 
+ .comment-box .comment {
+ 	border-bottom: 1px dashed #0C8689;
+ }
+ 
+ .comment-box .pane-content {
+ 	padding: 5px;
+ 	max-height: 600px;
+ 	overflow: scroll;
+ 	
+ }
+ 
+ .essential-questions-review-pane .pane-title{
+ 	font-size: 1.0em;
+ 	color: #ffffff;
+ }
+ 
+ .essential-questions-review-pane h3 {
+ 	font-size: 0.9em;
+ 	color: #220069;
+ 	text-align: center;
+ }
+ 
+ .session-content-panel .field {
+ 	margin: 0px 0px 20px 0px;
+ }
+ 
+ .session-content-panel .field-label {
+ 	color: #0C8689;
+ }
+ 
+  .session-content-panel .field-label-hidden .field-items{
+ 	margin-top: -15px;
+ 	margin-left: 20px;
+ }
+ 
+ .session-content-panel .field-label-above .field-items{
+ 	margin-left: 15px;
+ }
+ 
+ /**Resource View**/
+ .resource-row{
+ 	font-size: 0.8em;
+ }
+ 
+ .resource-view {
+ 	padding: 10px;
+ }
+ 
+ .views-field-field-resourcetype-image img{
+ 	width:30px;
+ 	height: 30px;
+ };
+ 
+ .views-view-grid {
+ 	border: 1pt solid #000000;
+ 	background: blue;
+ }
+ .panel-heading img {
+ 	width: 25px;
+ 	height: 25px;
+ }
+ .resource-title {
+ 	height: 3.0em;
+ }
+ .resource-description {
+ 	height: 150px;
+ 	overflow: scroll;
+ }
+ 
+
+ 
+
+ 
